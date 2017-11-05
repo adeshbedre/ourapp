@@ -1,0 +1,39 @@
+.logoArea{    
+    background-color: #a94442;
+}
+.col-sm-2{
+    color: white;
+    margin-top: 20px;
+}
+#recipeHeader{
+    background-color: #a94442;
+    background: url("../../assets/recipe/biryani.jpg") center center no-repeat  #a94442; 
+    color: white;
+    height: 300px;
+    
+}
+h1{
+    font-size: 700%;
+    padding-top: 8%;
+}
+.content{
+    background-color: white;
+}
+
+.container-fluid{
+    margin-bottom: 2%;
+}
+
+.stepImage{
+    max-height: 300px;
+    margin-bottom: 1%;
+}
+
+.mat-icon{
+    font-size: 0px;
+}
+.sectionHeading{
+    padding-top: 1%;
+    border-bottom: solid 1px #dddddd;
+    color: #a94442;
+}
