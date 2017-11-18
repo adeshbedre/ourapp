@@ -19,6 +19,8 @@ import {MatTableModule} from '@angular/material';
 import { routes } from './app.router';
 import { ItemListComponent } from './item-list/item-list.component';
 import { StepsListComponent } from './steps-list/steps-list.component';
+import { RecipeDataService } from './recipe-data.service';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -42,9 +44,10 @@ import { StepsListComponent } from './steps-list/steps-list.component';
     MatStepperModule,
     MatButtonModule,
     MatTableModule,
+    HttpModule,
     routes
   ],
-  providers: [],
+  providers: [RecipeDataService],
   entryComponents: [],
   bootstrap: [AppComponent]
 })

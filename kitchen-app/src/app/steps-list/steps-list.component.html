@@ -1,22 +1,9 @@
 
 <ol class="rounded-list">
-    <li>
+    <li *ngFor="let steps of stepsList">
       <section></section>
-      <div class = "jumbotron">content 1 <br/><br/>
-        <img src = "../../assets/recipe/sugar.jpg"  />
+      <div class = "jumbotron">{{ steps.step }}<br/><br/>
+        <img *ngIf="steps.img" src = "{{ steps.img }}"  />
       </div>
-    </li>
-    <li>
-        <section></section>
-        <div class = "jumbotron">content 1 <br/><br/>
-          <img src = "../../assets/recipe/sugar.jpg" />
-        </div>
-    </li>
-    <li>
-        <section></section>
-        <div class = "jumbotron">content 1 <br/><br/>
-          <img src = "../../assets/recipe/sugar.jpg" />
-        </div>
-    </li>
-                    
+    </li>                    
 </ol>

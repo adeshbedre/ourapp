@@ -1,14 +1,4 @@
 
-<ol class="rounded-list">
-    <li><div>List item</div></li>
-    <li><div>List item</div></li>
-    <li><div>List item</div>
-        <ol>
-            <li><div>List sub item</div></li>
-            <li><div>List sub item</div></li>
-            <li><div>List sub item</div></li>
-        </ol>
-    </li>
-    <li><div>List item</div></li>
-    <li><div>List item</div></li>                       
+<ol class="rounded-list" >
+    <li *ngFor = "let item of itemList "><div>{{item}}</div></li>                    
 </ol>
