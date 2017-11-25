@@ -1,5 +1,12 @@
 mat-grid-tile {
     background:#B4B4B4;
     margin: 10px; 
+    cursor: pointer;
   }
-  
+  mat-grid-tile:hover{
+    opacity: 0.5;
+    transition: all .3s ease-in;
+  }
+.mat-figure{
+    background-image: url('http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg') cover;
+  }

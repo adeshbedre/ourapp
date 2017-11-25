@@ -17,8 +17,13 @@
 
 .mat-card {
     height: 330px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
-
+.mat-card:hover{
+  opacity: 0.7;
+  transition: all .3s ease-in;
+}
   #non-veg{    
     background: url("../../assets/icons/non-veg.png") center center no-repeat white;
   }

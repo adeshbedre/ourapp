@@ -10,22 +10,23 @@
 </div>
 
 <div class="row"  id="choosingType">
-    <div class="col-sm-3">
-    <mat-card class="card" id="non-veg">
+    <div class="col-sm-3" (click)="goToFoodItemPage('nonveg')">
+    <mat-card class="card" id="non-veg" >
       </mat-card>
     </div>
     <div class="col-sm-3">
-      <mat-card class="card" id="veg">
+      <mat-card class="card" id="veg" (click)="goToFoodItemPage('veg')">
         </mat-card>
       </div>
         <div class="col-sm-3">
-        <mat-card class="card" id="sweet">
+        <mat-card class="card" id="sweet" (click)="goToFoodItemPage('sweet')">
           </mat-card>
         </div>
         <div class="col-sm-3">
-          <mat-card class="card">
+          <mat-card class="card" (click)="goToFoodItemPage('simple')">
             <h1>Sooooper simple Soooper FAST</h1>
             </mat-card>
           </div>
   </div>
+ 
 </div>

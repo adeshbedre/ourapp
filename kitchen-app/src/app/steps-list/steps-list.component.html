@@ -1,7 +1,7 @@
 
 <ol class="rounded-list">
     <li *ngFor="let steps of stepsList">
-      <section></section>
+      <section [style.background-color]="getStyle()"></section>
       <div class = "jumbotron">{{ steps.step }}<br/><br/>
         <img *ngIf="steps.img" src = "{{ steps.img }}"  />
       </div>

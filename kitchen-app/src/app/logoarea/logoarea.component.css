@@ -1,7 +1,11 @@
 .logoArea{    
     background-color: #3A3A3A;
+
 }
 .col-sm-2{
     color: white;
     margin-top: 20px;
+}
+.logoArea img{
+    cursor: pointer;
 }

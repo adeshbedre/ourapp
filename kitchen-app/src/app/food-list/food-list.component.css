@@ -1,0 +1,22 @@
+#homePageHeading{
+    background-color: #3A3A3A;
+    color: white;
+    height: 200px;
+}
+
+.heading{
+    font-size: 350%;
+    padding-top: 30px;
+}
+#choosingType{
+    background-color: #CECBCB;
+    color: white;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.searchInput{
+    width: 100%;
+}
+
+

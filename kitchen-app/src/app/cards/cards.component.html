@@ -1,18 +1,9 @@
-<mat-grid-list cols="3" rowHeight="250px" gutterSize ="15px">
-  <mat-grid-tile (click)="openDialog()">
-    <img src="http://del.h-cdn.co/assets/15/30/980x653/gallery-1437421158-delish-stuffed-peppers.jpg">
-    <mat-grid-tile-footer>Some food</mat-grid-tile-footer>
+<div *ngIf="foodList != null">
+<mat-grid-list cols="4" rowHeight="330px" gutterSize ="20px">
+  <mat-grid-tile *ngFor="let food of foodList | filter:searchText" (click)="goToRecipePage(foodType,food.recipeId)">
+      <img src = "{{food.img}}">
+    <mat-grid-tile-footer >{{food.recipeName}}</mat-grid-tile-footer>
     </mat-grid-tile>
-  <mat-grid-tile (click)="openDialog()">
-    <img src = "http://recipes.timesofindia.com/photo.cms?msid=55680287&width=800&height=800">
-    <mat-grid-tile-footer>Samosa</mat-grid-tile-footer>
-  </mat-grid-tile>
-  <mat-grid-tile (click)="openDialog()">
-    <img src = "http://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg">
-    <mat-grid-tile-footer>Pasta</mat-grid-tile-footer>
-  </mat-grid-tile>
-  <mat-grid-tile (click)="openDialog()">
-    <img src = "https://static.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg" >
-    <mat-grid-tile-footer>Pizza</mat-grid-tile-footer>
-  </mat-grid-tile>
+ 
 </mat-grid-list>
+</div>
