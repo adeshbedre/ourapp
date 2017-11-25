@@ -7,7 +7,6 @@ import { HomecontentComponent } from './homecontent/homecontent.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
-import { CardComponent } from 'ng2-bootstrap-card/ng2-bootstrap-card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material';  
 import { MatGridListModule } from '@angular/material';
@@ -28,7 +27,6 @@ import { FilterPipe } from './filter.pipe';
     HomecontentComponent,
     CarouselComponent,
     TabsComponent,
-    CardComponent,
     RecipeComponent,
     ItemListComponent,
     StepsListComponent,
