@@ -1,16 +1,16 @@
 [
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
+      "img": "recipe/small-food.jpg",
       "recipeName":"some food",
       "recipeId": "1"
     },
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
+      "img": "recipe/small-food.jpg",
       "recipeName":"some food",
       "recipeId": "2"
     },
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
+      "img": "recipe/small-food.jpg",
       "recipeName":"some food",
       "recipeId": "3"
     }

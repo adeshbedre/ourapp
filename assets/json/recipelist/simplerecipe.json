@@ -8,15 +8,15 @@
       ],
       "steps": [
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
           "step": "add sugar"
         },
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
           "step": "add spice"
         },
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
           "step": "add everything nice"
         }
       ]
