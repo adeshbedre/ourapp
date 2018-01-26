@@ -1,6 +1,50 @@
 {
     "1": {
-      "title": "Biriyaniii",
+      "title": "Khaju burfy",
+      "items": [
+        "sugar",
+        "spice",
+        "everything nice"
+      ],
+      "steps": [
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add sugar"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add spice"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add everything nice"
+        }
+      ]
+    },
+        "2": {
+      "title": "Chocolate burfy",
+      "items": [
+        "sugar",
+        "spice",
+        "everything nice"
+      ],
+      "steps": [
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add sugar"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add spice"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add everything nice"
+        }
+      ]
+    },
+        "3": {
+      "title": "Gulab jamoon",
       "items": [
         "sugar",
         "spice",

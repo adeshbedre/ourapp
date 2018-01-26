@@ -1,17 +1,17 @@
 [
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Maggi",
       "recipeId": "1"
     },
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Tea",
       "recipeId": "2"
     },
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Coffee",
       "recipeId": "3"
     }
 ]

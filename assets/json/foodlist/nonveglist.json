@@ -1,17 +1,17 @@
 [
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Chicken Biriyani",
       "recipeId": "1"
     },
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Wings",
       "recipeId": "2"
     },
     {
       "img": "recipe/small-food.jpg",
-      "recipeName":"some food",
+      "recipeName":"Egg fried rice",
       "recipeId": "3"
     }
 ]
