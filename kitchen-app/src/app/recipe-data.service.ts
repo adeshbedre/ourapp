@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
+import { environment } from '../environments/environment';
 
 @Injectable()
 export class RecipeDataService {
@@ -11,16 +12,16 @@ export class RecipeDataService {
     let url :string = "";
     if(foodType == "veg")
     {
-     url = "/assets/json/recipelist/vegrecipe.json";
+     url = environment.jsonUrl+"recipelist/vegrecipe.json";
     }
     else if(foodType == "nonveg"){
-     url = "/assets/json/recipelist/nonvegrecipe.json";
+     url = environment.jsonUrl+"recipelist/nonvegrecipe.json";
     }
     else if(foodType == "simple"){
-     url = "/assets/json/recipelist/simplerecipe.json";
+     url = environment.jsonUrl+"recipelist/simplerecipe.json";
     }
     else if(foodType == "sweet"){
-     url = "/assets/json/recipelist/sweetrecipe.json";
+     url = environment.jsonUrl+"recipelist/sweetrecipe.json";
     }
     return this.http.get(url).map(
       (res) => res.json()

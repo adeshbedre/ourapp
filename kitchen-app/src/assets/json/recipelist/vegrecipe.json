@@ -1,6 +1,6 @@
 {
     "1": {
-      "title": "Biriyaniii",
+      "title": "Paneer rice",
       "items": [
         "sugar",
         "spice",
@@ -8,15 +8,59 @@
       ],
       "steps": [
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
           "step": "add sugar"
         },
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
           "step": "add spice"
         },
         {
-          "img": "../../assets/recipe/sugar.jpg",
+          "img": "recipe/sugar.jpg",
+          "step": "add everything nice"
+        }
+      ]
+    },
+        "2": {
+      "title": "Palak rice",
+      "items": [
+        "sugar",
+        "spice",
+        "everything nice"
+      ],
+      "steps": [
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add sugar"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add spice"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add everything nice"
+        }
+      ]
+    },
+        "3": {
+      "title": "Roti",
+      "items": [
+        "sugar",
+        "spice",
+        "everything nice"
+      ],
+      "steps": [
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add sugar"
+        },
+        {
+          "img": "recipe/sugar.jpg",
+          "step": "add spice"
+        },
+        {
+          "img": "recipe/sugar.jpg",
           "step": "add everything nice"
         }
       ]

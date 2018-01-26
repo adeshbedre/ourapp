@@ -1,5 +1,6 @@
 import {Component, Inject, Input} from '@angular/core';
 import { Router } from '@angular/router';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-cards',
@@ -10,7 +11,7 @@ export class CardsComponent{
 
   animal: string;
   name: string;
-
+  imgUrl: string = environment.imgUrl;
   constructor(private router: Router) {
   }
 

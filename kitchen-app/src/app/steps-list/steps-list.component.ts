@@ -1,4 +1,5 @@
 import { Component, OnInit,Input } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-steps-list',
@@ -6,6 +7,7 @@ import { Component, OnInit,Input } from '@angular/core';
   styleUrls: ['./steps-list.component.css']
 })
 export class StepsListComponent implements OnInit {
+imgUrl:string = environment.imgUrl;
 
   constructor() { }
 

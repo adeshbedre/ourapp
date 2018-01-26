@@ -1,9 +1,36 @@
 <div *ngIf="foodList != null">
-<mat-grid-list cols="4" rowHeight="330px" gutterSize ="20px">
+<!-- <mat-grid-list cols="4" rowHeight="330px" gutterSize ="20px">
   <mat-grid-tile *ngFor="let food of foodList | filter:searchText" (click)="goToRecipePage(foodType,food.recipeId)">
       <img src = "{{food.img}}">
     <mat-grid-tile-footer >{{food.recipeName}}</mat-grid-tile-footer>
     </mat-grid-tile>
  
-</mat-grid-list>
+</mat-grid-list> -->
+
+<!-- <div class="row">
+  <div class="col-md-3">
+    <div class="card">
+
+      <div class="image">
+        <img src="http://assets.materialup.com/uploads/fc97b003-ba72-4c6e-9dd3-19bf5002c244/preview.jpg" width="100%">
+      </div>
+
+      <div class="text">
+
+        <h3>Descrição da funcionalidade deve vir abaixo do título do caso de uso.</h3>
+      
+      </div>
+
+    </div>
+  </div>
+</div> -->
+<div class="col-sm-3" id = "card-comp" *ngFor="let food of foodList | filter:searchText" (click)="goToRecipePage(foodType,food.recipeId)">
+  <mat-card class="card">
+    <img md-card-image src = "{{imgUrl+food.img}}">
+    <md-card-content class="card-text">
+     <p> {{food.recipeName}}</p>
+    </md-card-content>
+    </mat-card>
+  </div>
+
 </div>

@@ -7,7 +7,6 @@
     margin-top: 20px;
 }
 #recipeHeader{
-    background: url("../../assets/recipe/biryani.jpg") center center no-repeat  #a94442; 
     color: white;
     height: 200px;
     
@@ -15,6 +14,7 @@
 h1{
     font-size: 700%;
     padding-top: 4%;
+    text-align: center;
 }
 .content{
     background-color: white;

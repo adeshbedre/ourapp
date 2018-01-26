@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  jsonUrl: "/ourapp/assets/json/",
+  imgUrl: "../../ourapp/assets/",
+  iconUrl: "../../ourapp/assets/logo/"
 };

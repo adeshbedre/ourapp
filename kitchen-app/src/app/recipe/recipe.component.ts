@@ -4,6 +4,7 @@ import 'rxjs/Rx';
 import { Observable } from 'rxjs/Observable';
 import {RecipeDataService} from '../recipe-data.service';
 import { ActivatedRoute } from '@angular/router';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-recipe',
@@ -15,6 +16,8 @@ private _recipeId :string;
 public foodType:string;
 public recipes :any;
 public recipesObservable :Observable<any>;
+iconUrl: string = environment.iconUrl;
+
   constructor(private _recipeDataService: RecipeDataService,private _activatedRoute:ActivatedRoute) {
 
    }

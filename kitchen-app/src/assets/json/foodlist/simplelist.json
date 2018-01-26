@@ -1,17 +1,17 @@
 [
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
-      "recipeName":"some food",
+      "img": "recipe/small-food.jpg",
+      "recipeName":"Maggi",
       "recipeId": "1"
     },
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
-      "recipeName":"some food",
+      "img": "recipe/small-food.jpg",
+      "recipeName":"Tea",
       "recipeId": "2"
     },
     {
-      "img": "http://cdn.ebaumsworld.com/2012/05/82538692/small-food.jpg",
-      "recipeName":"some food",
+      "img": "recipe/small-food.jpg",
+      "recipeName":"Coffee",
       "recipeId": "3"
     }
 ]

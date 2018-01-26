@@ -2,7 +2,7 @@
     <div class = "container">
       <div class="row">
       <div class="col-sm-8">
-  <img [routerLink]="['/home']" src = "../../assets/logo/main_logo.png">
+  <img [routerLink]="['/home']"  src = "{{iconUrl+'main_logo.png'}}">
   </div>
   <div class="col-sm-2"></div>
   <div class="col-sm-2"></div>
@@ -12,22 +12,17 @@
   
   
     
-  <div class="container-fluid">
-  
-  
-      
-  
-  
+  <div class="container-fluid"> 
   
   <div class="row" id="recipeHeader" [style.background-color]="getStyle()">
-      <div class="col-sm-4">
+      <!--<div class="col-sm-4">
   
-      </div>
-      <div class="col-sm-6">
+      </div>-->
+      <div class="col-sm-12">
   <h1 class="heading">{{recipes? recipes.title : ''}}</h1>
   </div>
-  <div class="col-sm-2">
-    </div>
+  <!--<div class="col-sm-2">
+    </div>-->
   </div>
   
   <div class="row content">
