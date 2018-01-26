@@ -8,59 +8,15 @@
       ],
       "steps": [
         {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
+          "img": "../../assets/recipe/sugar.jpg",
           "step": "add sugar"
         },
         {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
+          "img": "../../assets/recipe/sugar.jpg",
           "step": "add spice"
         },
         {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add everything nice"
-        }
-      ]
-    },
-    "2": {
-      "title": "Biriyaniii",
-      "items": [
-        "sugar",
-        "spice",
-        "everything nice"
-      ],
-      "steps": [
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add sugar"
-        },
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add spice"
-        },
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add everything nice"
-        }
-      ]
-    },
-    "3": {
-      "title": "Biriyaniii",
-      "items": [
-        "sugar",
-        "spice",
-        "everything nice"
-      ],
-      "steps": [
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add sugar"
-        },
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
-          "step": "add spice"
-        },
-        {
-          "img": "/ourapp/assets/recipe/sugar.jpg",
+          "img": "../../assets/recipe/sugar.jpg",
           "step": "add everything nice"
         }
       ]
